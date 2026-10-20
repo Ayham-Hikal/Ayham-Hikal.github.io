@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const CategoryIcons = {
-  "Web Development": (
+  "Computer Vision": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -20,7 +20,7 @@ const CategoryIcons = {
       <path d="M14 8h.01" />
     </svg>
   ),
-  "Mobile Development": (
+  Robotics: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -38,7 +38,7 @@ const CategoryIcons = {
       <path d="M8 18h.01" />
     </svg>
   ),
-  "UI/UX Design & Prototyping": (
+  "ML Engineering": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -84,7 +84,7 @@ const SkillsList = () => {
   return (
     <div className="text-left pt-3 md:pt-9">
       <h3 className="text-[var(--white)] text-3xl md:text-4xl font-semibold md:mb-6">
-        What I do?
+        What I Work on?
       </h3>
       <ul className="space-y-4 mt-4 text-lg">
         {Object.entries(skills).map(([category, items]) => (
